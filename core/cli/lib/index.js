@@ -11,8 +11,12 @@ const pkg = require('../package.json');
 const constant = require('./const');
 
 function core() {
-    checkPkgVersion();
-    checkNodeVersion();
+    try{
+        checkPkgVersion();
+        checkNodeVersion();
+    }catch(e){
+        log.error(e.message);
+    }
 }
 
 function checkNodeVersion() {
