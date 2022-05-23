@@ -24,6 +24,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@sjs-cli-lerna/log": "file:../../utils/log"
+    "@sjs-cli-lerna/log": "file:../../utils/log",
+    "colors": "^1.4.0",
+    "semver": "^7.3.7"
   }
 }
