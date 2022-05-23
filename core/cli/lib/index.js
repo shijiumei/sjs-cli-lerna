@@ -2,7 +2,12 @@
 
 module.exports = core;
 
+const pkg = require('../package.json');
+
 function core() {
-    console.log('exec sjs core');
-    console.log('改点东西，再发布');
+    checkPkgVersion();
+}
+
+function checkPkgVersion() {
+    console.log(pkg.version);
 }
