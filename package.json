@@ -1,0 +1,19 @@
+{
+  "name": "sjs-cli-lerna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "import-local": "^3.1.0",
+    "npmlog": "^6.0.2"
+  }
+}
