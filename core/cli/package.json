@@ -22,5 +22,8 @@
   "gitHead": "65e0c89524e423b8e442e8863e08753a459d63d1",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@sjs-cli-lerna/log": "file:../../utils/log"
   }
 }
