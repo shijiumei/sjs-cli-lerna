@@ -1,5 +1,7 @@
-const LOWeST_NODE_VERSION = '20.0.0';
+const LOWEST_NODE_VERSION = '16.0.0';
+const DEFAULT_CLI_HOME = '.sjs-cli';
 
 module.exports = {
-    LOWeST_NODE_VERSION
+    LOWEST_NODE_VERSION,
+    DEFAULT_CLI_HOME
 }
