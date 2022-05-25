@@ -1,6 +1,6 @@
 {
   "name": "@sjs-cli-lerna/core",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "zzh <99791885+shijiumei@users.noreply.github.com>",
   "homepage": "",
@@ -24,8 +24,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@sjs-cli-lerna/log": "file:../../utils/log",
     "@sjs-cli-lerna/get-npm-info": "file:../../utils/get-npm-info",
+    "@sjs-cli-lerna/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "path-exists": "4.0.0",
     "root-check": "1.0.0",
