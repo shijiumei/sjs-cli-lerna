@@ -11,4 +11,5 @@
 //     require('../lib')(process.argv.slice(2));
 // }
 
-require('../dist/core');
+//require('../dist/core');
+import './core.mjs';
